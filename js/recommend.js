@@ -1,6 +1,6 @@
 // js/recommend.js
 
-const portfolioMedia = [
+const portfolioVideos = [
   {
     title: "하루체험",
     url: "team_video1.html",
@@ -46,17 +46,17 @@ function insertRandomRecommendations() {
 
   const currentPage = location.pathname.split("/").pop();
 
-  const filtered = portfolioMedia.filter(media => media.url !== currentPage);
+  const filtered = portfolioVideos.filter(video => video.url !== currentPage);
   const shuffled = shuffleArray(filtered);
   const selected = shuffled.slice(0, 3);
 
-  selected.forEach(media => {
+  selected.forEach(video => {
     const card = document.createElement("a");
     card.className = "recommend-card";
-    card.href = media.url;
+    card.href = video.url;
     card.innerHTML = `
-      <img src="${media.thumbnail}" alt="${media.title}" />
-      <p>${media.title}</p>
+      <img src="${video.thumbnail}" alt="${video.title}" />
+      <p>${video.title}</p>
     `;
     recommendContainer.appendChild(card);
   });

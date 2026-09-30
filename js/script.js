@@ -32,7 +32,7 @@ const PORTFOLIO = [
     desc: "소제동의 과거, 현재 그리고 미래",
     thumb: "image/team4_soje.jpg",
     href: "team_video4.html",
-    category: "media",
+    category: "video",
     date: "2024-12-8",
   },
   {
@@ -41,7 +41,7 @@ const PORTFOLIO = [
     desc: "케이카 영상 공모전 제출작품",
     thumb: "image/team3_kcar.jpg",
     href: "team_video3.html",
-    category: "media",
+    category: "video",
     date: "2024-11-19",
   },
   {
@@ -50,7 +50,7 @@ const PORTFOLIO = [
     desc: "고독을 즐기는 청년이 대전 동구를 누빈다",
     thumb: "image/team2_donggu again.jpg",
     href: "team_video2.html",
-    category: "media",
+    category: "video",
     date: "2024-06-11",
   },
   {
@@ -59,7 +59,7 @@ const PORTFOLIO = [
     desc: "모션그래픽을 이용한 포트폴리오 인트로",
     thumb: "image/personal1_intro.jpg",
     href: "personal_video1.html",
-    category: "media",
+    category: "video",
     date: "2024-03-28",
   },
   {
@@ -68,7 +68,7 @@ const PORTFOLIO = [
     desc: "하루체험 어플리케이션 홍보영상",
     thumb: "image/team1_oneday.jpg",
     href: "team_video1.html",
-    category: "media",
+    category: "video",
     date: "2021-04-11",
   },
 ];
