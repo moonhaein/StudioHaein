@@ -3,136 +3,135 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | 스튜디오해인</title>
+  <title>ABOUT — STUDIO HAEIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
+<body>
 
-<body class="page-inner">
-  <header class="site-header is-solid" aria-label="사이트 상단 메뉴">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="스튜디오해인 홈">
-        <img src="image/logo_color.png" alt="스튜디오해인 로고" />
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="메인 메뉴">
+      <a href="about.html" class="is-active">ABOUT</a>
+      <a href="index.html">WORK</a>
+    </nav>
+
+    <a href="index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
+      <img src="assets/logo.svg" alt="STUDIO HAEIN" />
+    </a>
+
+    <div class="site-sns">
+      <!-- SNS 버튼: 사용할 때 아래 주석을 해제하고 href에 주소를 넣으세요.
+      <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">
+        <img src="assets/icons/behance.svg" alt="Behance" />
       </a>
-
-      <nav class="nav" aria-label="메인 메뉴">
-        <a class="nav-link" href="about.html">ABOUT</a>
-        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-      </nav>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="assets/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="assets/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <img src="assets/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      -->
     </div>
   </header>
 
-  <main class="about-page" aria-label="About">
-  <section class="about-hero">
-    <div class="container about-wrap">
-      <!-- Title -->
-      <h1 class="about-title">ABOUT</h1>
+  <main>
+    <!-- ① ABOUT 제목 -->
+    <section class="project-head">
+      <h1>ABOUT</h1>
+    </section>
 
-      <!-- 3 Columns -->
-      <div class="about-grid">
-        <!-- Left: keywords -->
-        <div class="about-col about-left">
-          <p>Video design</p>
-          <p>Motion graphic</p>
-          <p>SNS contents</p>
+    <!-- ② 메인 이미지 -->
+    <section class="project-hero">
+      <img src="assets/about/main.svg" alt="STUDIO HAEIN" />
+    </section>
+
+    <!-- ③ 간단한 소개 (가운데 정렬) -->
+    <section class="about-intro">
+      <h2>Short one-line introduction about STUDIO HAEIN.</h2>
+      <p>
+        여기에 나에 대한 간단한 소개를 적어주세요.<br />
+        어떤 디자인을 하고 있는지, 어떤 가치를 중요하게 생각하는지,<br />
+        앞으로 어떤 작업을 하고 싶은지 3~4줄 정도로 정리하면 좋아요.
+      </p>
+    </section>
+
+    <div class="about-body">
+
+      <!-- ④ 작업 분야 -->
+      <section class="about-section">
+        <h3>WHAT I DO</h3>
+        <p class="about-lead">
+          작업 분야에 대한 한두 줄 소개를 적어주세요.
+        </p>
+
+        <div class="about-item">
+          <h4>1. Brand Identity Design</h4>
+          <p>브랜드 아이덴티티 작업에 대한 설명을 적어주세요.</p>
         </div>
-
-        <!-- Middle: experience -->
-        <div class="about-col about-mid">
-          <div class="about-block">
-            <div class="about-date">2025.09 ~ 2026.02</div>
-            <div class="about-role">(주)하이브파트너스 사원</div>
-            <ul class="about-list">
-              <li>오월드 숏폼 기획 및 제작</li>
-              <li>우송대학교 홍보 숏폼 기획 및 제작</li>
-              <li>한국원자력안전기술원 홍보 숏폼 기획 및 제작</li>
-              <li>대전광역시 중구청 유튜브 및 인스타 숏폼 기획 및 제작</li>
-              <li>
-                충북경제자유구역청 콘텐츠 제작
-                  <ul class="about-ul">- 카드뉴스 제작</ul>
-                  <ul class="about-ul">- 블로그 콘텐츠 작성</ul>
-                  <ul class="about-ul">- 숏폼 영상 기획 및 제작</ul>
-              </li>
-              <li>백제역사유적지구 숏폼 기획 및 제작</li>
-              <li>국가유산청 숏폼 기획</li>
-            </ul>
-          </div>
-
-          <div class="about-block">
-            <div class="about-date">2021.03 ~ 2025.02</div>
-            <div class="about-role">한국폴리텍대학 대전캠퍼스 영상디자인학과 졸업</div>
-          </div>
-
-          <div class="about-block">
-            <div class="about-date">2022.01 ~ 2023.07</div>
-            <div class="about-role">대한민국 육군 병장 (만기전역)</div>
-            <ul class="about-list">
-              <li>대대인사병</li>
-            </ul>
-          </div>
+        <div class="about-item">
+          <h4>2. Graphic Design</h4>
+          <p>포스터, 편집, 패키지 등 그래픽 작업에 대한 설명을 적어주세요.</p>
         </div>
-
-        <!-- Right: awards / certificates -->
-        <div class="about-col about-right">
-          <div class="about-block">
-            <div class="about-section-title">공모전 수상내역</div>
-            <ul class="about-list plain">
-              <li class="nowrap">2024 한국폴리텍대학 대전캠퍼스 프로젝트 작품 경진대회 대상</li>
-              <li class="nowrap">2024 대전 동구 관광콘텐츠 아이디어 공모전 대상</li>
-              <li class="nowrap">2021 하루체험 유튜브 영상 공모전 우수상</li>
-              <li class="nowrap">2020 2020년도 대구옥외공고대상전 입선</li>
-            </ul>
-          </div>
-
-          <div class="about-block">
-            <div class="about-section-title">자격증</div>
-            <ul class="about-list plain">
-              <li>2024 자동차운전면허증 2종보통</li>
-              <li>2021 GTQ 1급</li>
-              <li>2021 GTQi 1급</li>
-              <li>2020 전자출판기능사</li>
-              <li>2019 ACA Photoshop CC 2015</li>
-              <li>2018 ACA Illustrator CC 2015</li>
-            </ul>
-          </div>
-
-          <div class="about-block">
-            <div class="about-section-title">교육 및 수료 과정</div>
-            <ul class="about-list plain">
-              <li>한국폴리텍대학 대구캠퍼스 콘텐츠디자인과 수료</li>
-              <li>한국폴리텍대학 대전캠퍼스 영상디자인과 하이테크 과정 이수</li>
-          </div>
+        <div class="about-item">
+          <h4>3. UI / Web Design</h4>
+          <p>웹사이트, 앱 등 디지털 작업에 대한 설명을 적어주세요.</p>
         </div>
-      </div>
+      </section>
+
+      <!-- ⑤ 경력 및 학력 -->
+      <section class="about-section">
+        <h3>EXPERIENCE &amp; EDUCATION</h3>
+        <!--
+          한 줄 = <li> 하나.
+          같은 연도에 여러 항목이 있으면 두 번째 줄부터 tl-year 를 비워두세요.
+        -->
+        <ul class="timeline">
+          <li><span class="tl-year">2026</span><span class="tl-text">Founder, STUDIO HAEIN</span></li>
+          <li><span class="tl-year">2024</span><span class="tl-text">Designer, Company Name</span></li>
+          <li><span class="tl-year">2023</span><span class="tl-text">B.F.A. Visual Communication Design, University Name / 졸업</span></li>
+        </ul>
+      </section>
+
+      <!-- ⑥ 수상 -->
+      <section class="about-section">
+        <h3>HONORS &amp; AWARDS</h3>
+        <ul class="timeline">
+          <li><span class="tl-year">2026</span><span class="tl-text">Design Award Name _ Winner [Project Name] / 어워드명 위너</span></li>
+          <li><span class="tl-year"></span><span class="tl-text">Design Competition Name _ Grand Prize [Project Name] / 공모전명 대상</span></li>
+          <li><span class="tl-year">2025</span><span class="tl-text">Design Competition Name _ Excellence Prize [Project Name] / 공모전명 우수상</span></li>
+          <li><span class="tl-year"></span><span class="tl-text">Design Award Name _ Bronze Prize [Project Name] / 어워드명 브론즈</span></li>
+        </ul>
+      </section>
+
+      <!-- ⑦ 자격증 -->
+      <section class="about-section">
+        <h3>CERTIFICATIONS</h3>
+        <ul class="timeline">
+          <li><span class="tl-year">2024</span><span class="tl-text">시각디자인산업기사 / Industrial Engineer Visual Design</span></li>
+          <li><span class="tl-year">2023</span><span class="tl-text">GTQ 1급 (포토샵) / GTQ Level 1</span></li>
+        </ul>
+      </section>
+
     </div>
-  </section>
-</main>
+  </main>
 
-  <!-- Footer -->
-  <footer class="site-footer" aria-label="푸터">
-  <div class="container footer-inner">
-  <div class="footer-left">
-  <div class="footer-brand">
-    <img src="image/logo.png" alt="스튜디오해인 로고" />
-  </div>
-</div>
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <img class="footer-logo" src="assets/logo.svg" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:hello@studiohaein.com">hello@studiohaein.com</a>
+    <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
+  </footer>
 
-<div class="footer-mailline">
-  <span class="footer-copy">E-MAIL</span>
-  <a class="footer-email" href="mailto:std_story@naver.com">std_story@naver.com</a>
-</div>
+  <button class="to-top" type="button" aria-label="맨 위로">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg>
+  </button>
 
-  <div class="footer-links" aria-label="외부 링크">
-    <a href="https://blog.naver.com/mhi0308" target="_blank" rel="noopener noreferrer">Blog</a>
-    <a href="https://www.youtube.com/@studiohaein" target="_blank" rel="noopener noreferrer">YouTube</a>
-  </div>
-</div>
-  <div class="container footer-bottom" aria-label="카피라이트">
-    <p class="footer-copyright">
-      © 2026 STUDIO HAEIN. All rights reserved.
-    </p>
-  </div>
-</footer>
-
-  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
