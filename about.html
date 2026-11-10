@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABOUT — STUDIO HAEIN</title>
+  <title>STUDIO HAEIN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -19,7 +19,7 @@
     </nav>
 
     <a href="index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
-      <img src="assets/logo.svg" alt="STUDIO HAEIN" />
+      <img src="assets/logo_white.png" alt="STUDIO HAEIN" />
     </a>
 
     <div class="site-sns">
@@ -48,16 +48,17 @@
 
     <!-- ② 메인 이미지 -->
     <section class="project-hero">
-      <img src="assets/about/main.svg" alt="STUDIO HAEIN" />
+      <img src="assets/about/main.jpg" alt="STUDIO HAEIN" />
     </section>
 
     <!-- ③ 간단한 소개 (가운데 정렬) -->
     <section class="about-intro">
-      <h2>Short one-line introduction about STUDIO HAEIN.</h2>
+      <h2>Visual Stories, Creative Experiences.</h2>
       <p>
-        여기에 나에 대한 간단한 소개를 적어주세요.<br />
-        어떤 디자인을 하고 있는지, 어떤 가치를 중요하게 생각하는지,<br />
-        앞으로 어떤 작업을 하고 싶은지 3~4줄 정도로 정리하면 좋아요.
+        아이디어를 시각적인 이야기로 풀어내는 영상·콘텐츠 디자이너입니다.<br /><br />
+        영상 기획과 편집을 중심으로 모션그래픽, AI 콘텐츠, 그래픽 디자인 등<br />다양한 방식의 작업을 이어가고 있습니다.<br /><br />
+        단순히 보기 좋은 결과물을 넘어, 전달하고자 하는 메시지가 효과적으로 닿는 디자인을 중요하게 생각합니다.<br /><br />
+        새로운 기술과 표현 방식을 탐구하며, 보는 사람의 기억에 남는 콘텐츠를 만들어가고자 합니다.
       </p>
     </section>
 
@@ -67,20 +68,23 @@
       <section class="about-section">
         <h3>WHAT I DO</h3>
         <p class="about-lead">
-          작업 분야에 대한 한두 줄 소개를 적어주세요.
+          기획부터 제작, 후반 작업까지 다양한 시각적 표현 방식을 활용해 목적에 맞는 콘텐츠를 제작합니다.
         </p>
 
         <div class="about-item">
-          <h4>1. Brand Identity Design</h4>
-          <p>브랜드 아이덴티티 작업에 대한 설명을 적어주세요.</p>
+          <h4>1. Video Production & Editing</h4>
+          <p>홍보영상, 웹예능, 숏폼, 행사 스케치 등 다양한 영상 콘텐츠를 기획하고 편집합니다.<br />
+            콘텐츠의 목적과 시청자의 특성을 고려해 자연스러운 흐름과 몰입감 있는 영상을 제작합니다.</p>
         </div>
         <div class="about-item">
-          <h4>2. Graphic Design</h4>
-          <p>포스터, 편집, 패키지 등 그래픽 작업에 대한 설명을 적어주세요.</p>
+          <h4>2. Motion Graphics & AI Content</h4>
+          <p>모션그래픽과 AI 이미지·영상 생성 기술을 활용해 새로운 시각적 경험을 만듭니다.<br />
+            그래픽 애니메이션부터 AI 기반 홍보영상까지, 다양한 제작 방식으로 아이디어를 구체화합니다.</p>
         </div>
         <div class="about-item">
-          <h4>3. UI / Web Design</h4>
-          <p>웹사이트, 앱 등 디지털 작업에 대한 설명을 적어주세요.</p>
+          <h4>3. Graphic & Digital Content Design</h4>
+          <p>카드뉴스, 포스터, 디지털 홍보 콘텐츠 등 정보를 효과적으로 전달하는 그래픽을 디자인합니다.<br />
+            콘텐츠의 목적에 맞춰 핵심 메시지를 정리하고, 가독성과 시각적 완성도를 함께 고려합니다.</p>
         </div>
       </section>
 
@@ -88,13 +92,33 @@
       <section class="about-section">
         <h3>EXPERIENCE &amp; EDUCATION</h3>
         <!--
-          한 줄 = <li> 하나.
-          같은 연도에 여러 항목이 있으면 두 번째 줄부터 tl-year 를 비워두세요.
+          한 항목 = <li class="career-item"> 하나.
+          - career-period : 왼쪽 기간 (예: 2026 — NOW / 2025 — 2026 / 2025)
+          - career-name   : 회사·학교 이름
+          - career-role   : 직책·담당 업무·학과
         -->
-        <ul class="timeline">
-          <li><span class="tl-year">2026</span><span class="tl-text">Founder, STUDIO HAEIN</span></li>
-          <li><span class="tl-year">2024</span><span class="tl-text">Designer, Company Name</span></li>
-          <li><span class="tl-year">2023</span><span class="tl-text">B.F.A. Visual Communication Design, University Name / 졸업</span></li>
+        <ul class="career">
+          <li class="career-item">
+            <span class="career-period">2026 — NOW</span>
+            <div class="career-body">
+              <strong class="career-name">PixelArc</strong>
+              <span class="career-role">Founder / Creative Director</span>
+            </div>
+          </li>
+          <li class="career-item">
+            <span class="career-period">2025 — 2026</span>
+            <div class="career-body">
+              <strong class="career-name">(주)하이브파트너스</strong>
+              <span class="career-role">영상 콘텐츠 제작 · 디자인</span>
+            </div>
+          </li>
+          <li class="career-item">
+            <span class="career-period">2025</span>
+            <div class="career-body">
+              <strong class="career-name">한국폴리텍대학 대전캠퍼스</strong>
+              <span class="career-role">영상디자인과 졸업</span>
+            </div>
+          </li>
         </ul>
       </section>
 
@@ -102,10 +126,11 @@
       <section class="about-section">
         <h3>HONORS &amp; AWARDS</h3>
         <ul class="timeline">
-          <li><span class="tl-year">2026</span><span class="tl-text">Design Award Name _ Winner [Project Name] / 어워드명 위너</span></li>
-          <li><span class="tl-year"></span><span class="tl-text">Design Competition Name _ Grand Prize [Project Name] / 공모전명 대상</span></li>
-          <li><span class="tl-year">2025</span><span class="tl-text">Design Competition Name _ Excellence Prize [Project Name] / 공모전명 우수상</span></li>
-          <li><span class="tl-year"></span><span class="tl-text">Design Award Name _ Bronze Prize [Project Name] / 어워드명 브론즈</span></li>
+          <li><span class="tl-year">2024</span><span class="tl-text">한국폴리텍대학 대전캠퍼스 프로젝트 작품 경진대회 / 대상</span></li>
+          <li><span class="tl-year"></span><span class="tl-text">대전 동구 관광콘텐츠 아이디어 공모전 / 대상</span></li>
+          <li><span class="tl-year">2021</span><span class="tl-text">하루체험 유튜브 영상 공모전 / 우수상</span></li>
+          <li><span class="tl-year">2020</span><span class="tl-text">2020년도 대구옥외공고대상전 / 입선</span></li>
+          <li><span class="tl-year"></span><span class="tl-text">대구서부경찰서 명예홍보단 카드뉴스 전시회 / 우수작</span></li>
         </ul>
       </section>
 
@@ -113,8 +138,11 @@
       <section class="about-section">
         <h3>CERTIFICATIONS</h3>
         <ul class="timeline">
-          <li><span class="tl-year">2024</span><span class="tl-text">시각디자인산업기사 / Industrial Engineer Visual Design</span></li>
-          <li><span class="tl-year">2023</span><span class="tl-text">GTQ 1급 (포토샵) / GTQ Level 1</span></li>
+          <li><span class="tl-year">2024</span><span class="tl-text">자동차운전면허증 2종보통</span></li>
+          <li><span class="tl-year">2021</span><span class="tl-text">GTQ 1급 (포토샵) / GTQi 1급 (일러스트)</span></li>
+          <li><span class="tl-year">2020</span><span class="tl-text">전자출판기능사</span></li>
+          <li><span class="tl-year">2019</span><span class="tl-text">ACA Photoshop CC 2015</span></li>
+          <li><span class="tl-year">2018</span><span class="tl-text">ACA Illustrator CC 2015</span></li>
         </ul>
       </section>
 
@@ -123,8 +151,8 @@
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="site-footer">
-    <img class="footer-logo" src="assets/logo.svg" alt="STUDIO HAEIN" />
-    <a class="footer-email" href="mailto:hello@studiohaein.com">hello@studiohaein.com</a>
+    <img class="footer-logo" src="assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
     <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
   </footer>
 

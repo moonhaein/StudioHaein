@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ▼ 브라우저 탭 제목 -->
+  <title>STUDIO HAEIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="메인 메뉴">
+      <a href="../about.html">ABOUT</a>
+      <a href="../index.html" class="is-active">WORK</a>
+    </nav>
+
+    <a href="../index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
+      <img src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    </a>
+
+    <div class="site-sns">
+      <!-- SNS 버튼: 사용할 때 아래 주석을 해제하고 href에 주소를 넣으세요.
+      <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">
+        <img src="../assets/icons/behance.svg" alt="Behance" />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="../assets/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../assets/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <img src="../assets/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      -->
+    </div>
+  </header>
+
+  <main>
+    <!-- ① 프로젝트 이름 -->
+    <section class="project-head">
+      <h1>PROJECT TWO</h1>
+    </section>
+
+    <!-- ② 메인 이미지 -->
+    <section class="project-hero">
+      <img src="../assets/projects/project-02/main.svg" alt="PROJECT TWO 메인 이미지" />
+    </section>
+
+    <!-- ③ 프로젝트 풀네임 + 설명 -->
+    <section class="project-intro">
+      <h2>PROJECT TWO POSTER DESIGN COMPETITION</h2>
+
+      <p class="ko">
+        여기에 프로젝트에 대한 한글 설명을 적어주세요. 어떤 공모전에 출품한 작업인지,
+        프로젝트의 목표와 디자인 방향, 그리고 이를 통해 전달하고자 한 가치를 간단히 소개합니다.
+      </p>
+      <p class="divider">-</p>
+      <p>
+        Write the English description of the project here. Briefly introduce the competition,
+        the goal of the project, the design direction, and the values it aims to deliver.
+      </p>
+      <p class="divider">-</p>
+      <p>Project Scope</p>
+      <ol>
+        <li>1. Brand Identity Design.</li>
+        <li>2. Brand Experience Design System.</li>
+        <li>3. Package Design.</li>
+      </ol>
+    </section>
+
+    <!-- ④ 상세 이미지 (위에서부터 순서대로 나열 — <img> 를 추가/삭제하세요) -->
+    <section class="project-gallery">
+      <img src="../assets/projects/project-02/detail-01.svg" alt="" loading="lazy" />
+      <img src="../assets/projects/project-02/detail-02.svg" alt="" loading="lazy" />
+          </section>
+
+    <!-- ⑤ 프로젝트 정보 (공모전 작업용) -->
+    <section class="project-credits">
+      <p>PROJECT TWO Poster Design.</p>
+      <p>-</p>
+      <p>Date : 2025.10</p>
+      <p>Competition : 2025 Design Competition Name</p>
+      <p>Role : Concept, Graphic Design</p>
+      <p>Award : Grand Prize (대상)</p>
+    </section>
+
+    <!-- ⑥ 추천 프로젝트 (랜덤 2개, 자동) -->
+    <section class="related">
+      <h2>You may also like</h2>
+      <!-- 추천 프로젝트는 js/projects.js 목록에서 랜덤으로 자동 선택됩니다 -->
+      <ul class="work-grid" data-related></ul>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <img class="footer-logo" src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
+    <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="맨 위로">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg>
+  </button>
+
+  <script src="../js/projects.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

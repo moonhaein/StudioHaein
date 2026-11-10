@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STUDIO HAEIN — Work</title>
+  <title>STUDIO HAEIN</title>
   <meta name="description" content="STUDIO HAEIN Portfolio" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +21,7 @@
 
     <a href="index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
       <!-- 로고 이미지: assets/logo.png 로 교체하세요 -->
-      <img src="assets/logo.svg" alt="STUDIO HAEIN" />
+      <img src="assets/logo_white.png" alt="STUDIO HAEIN" />
     </a>
 
     <div class="site-sns">
@@ -45,75 +45,21 @@
   <!-- ===================== WORK GRID ===================== -->
   <main>
     <h1 class="visually-hidden">Work</h1>
-    <ul class="work-grid">
-      <!--
-        프로젝트 추가 방법: 아래 <li> 하나를 복사해서
-        href(상세 페이지 주소), img src(썸네일), 프로젝트 이름, 연도만 바꾸면 됩니다.
-      -->
-      <li class="work-item">
-        <a href="project/project-01.html">
-          <img src="assets/works/work-01.svg" alt="Project One" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT ONE</span>
-            <span class="work-year">2026</span>
-          </div>
-        </a>
-      </li>
-      <li class="work-item">
-        <a href="project/project-02.html">
-          <img src="assets/works/work-02.svg" alt="Project Two" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT TWO</span>
-            <span class="work-year">2026</span>
-          </div>
-        </a>
-      </li>
-      <li class="work-item">
-        <a href="#">
-          <img src="assets/works/work-03.svg" alt="Project Three" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT THREE</span>
-            <span class="work-year">2025</span>
-          </div>
-        </a>
-      </li>
-      <li class="work-item">
-        <a href="#">
-          <img src="assets/works/work-04.svg" alt="Project Four" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT FOUR</span>
-            <span class="work-year">2025</span>
-          </div>
-        </a>
-      </li>
-      <li class="work-item">
-        <a href="#">
-          <img src="assets/works/work-05.svg" alt="Project Five" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT FIVE</span>
-            <span class="work-year">2024</span>
-          </div>
-        </a>
-      </li>
-      <li class="work-item">
-        <a href="#">
-          <img src="assets/works/work-06.svg" alt="Project Six" loading="lazy" />
-          <div class="work-overlay">
-            <span class="work-title">PROJECT SIX</span>
-            <span class="work-year">2024</span>
-          </div>
-        </a>
-      </li>
-    </ul>
+    <!--
+      썸네일 목록은 js/projects.js 에서 관리합니다.
+      (프로젝트 추가/삭제/순서 변경은 그 파일만 수정하세요)
+    -->
+    <ul class="work-grid" data-work-list></ul>
   </main>
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="site-footer">
-    <img class="footer-logo" src="assets/logo.svg" alt="STUDIO HAEIN" />
-    <a class="footer-email" href="mailto:hello@studiohaein.com">hello@studiohaein.com</a>
+    <img class="footer-logo" src="assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
     <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
   </footer>
 
+  <script src="js/projects.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

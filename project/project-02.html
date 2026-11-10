@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- ▼ 브라우저 탭 제목 -->
-  <title>PROJECT TWO — STUDIO HAEIN</title>
+  <title>STUDIO HAEIN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -20,7 +20,7 @@
     </nav>
 
     <a href="../index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
-      <img src="../assets/logo.svg" alt="STUDIO HAEIN" />
+      <img src="../assets/logo_white.png" alt="STUDIO HAEIN" />
     </a>
 
     <div class="site-sns">
@@ -44,82 +44,86 @@
   <main>
     <!-- ① 프로젝트 이름 -->
     <section class="project-head">
-      <h1>PROJECT TWO</h1>
+      <h1>Motion Graphics Intro</h1>
     </section>
 
-    <!-- ② 메인 이미지 -->
+    <!-- ② 메인 영상 (유튜브)
+         유튜브 주소가 https://www.youtube.com/watch?v=abc123XYZ 라면
+         아래 src의 VIDEO_ID 자리에 abc123XYZ 를 넣으세요.
+         (youtu.be/abc123XYZ 형태라면 마지막 부분이 ID) -->
     <section class="project-hero">
-      <img src="../assets/projects/project-02/main.svg" alt="PROJECT TWO 메인 이미지" />
+      <div class="project-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/hYVz9GSe0vo?rel=0"
+          title="하루체험 영상"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          loading="lazy"></iframe>
+      </div>
     </section>
 
     <!-- ③ 프로젝트 풀네임 + 설명 -->
     <section class="project-intro">
-      <h2>PROJECT TWO POSTER DESIGN COMPETITION</h2>
+      <h2>포트폴리오 모션그래픽 인트로 영상</h2>
 
       <p class="ko">
-        여기에 프로젝트에 대한 한글 설명을 적어주세요. 어떤 공모전에 출품한 작업인지,
-        프로젝트의 목표와 디자인 방향, 그리고 이를 통해 전달하고자 한 가치를 간단히 소개합니다.
+        모션그래픽을 이용하여 포트폴리오 인트로를 제작하였습니다.<br />
+        저의 모습을 캐릭터로 만들어 리깅을 통한 움직임을 준 것이 영상의 포인트입니다.
       </p>
       <p class="divider">-</p>
       <p>
-        Write the English description of the project here. Briefly introduce the competition,
-        the goal of the project, the design direction, and the values it aims to deliver.
+        I created a portfolio intro using motion graphics. The highlight of the video is that I turned myself into a character and animated it using rigging.
       </p>
       <p class="divider">-</p>
       <p>Project Scope</p>
       <ol>
-        <li>1. Brand Identity Design.</li>
-        <li>2. Brand Experience Design System.</li>
-        <li>3. Package Design.</li>
+        <li>1. Character Rigging.</li>
+        <li>2. Motion Graphics & Animation.</li>
       </ol>
     </section>
 
     <!-- ④ 상세 이미지 (위에서부터 순서대로 나열 — <img> 를 추가/삭제하세요) -->
     <section class="project-gallery">
-      <img src="../assets/projects/project-02/detail-01.svg" alt="" loading="lazy" />
-      <img src="../assets/projects/project-02/detail-02.svg" alt="" loading="lazy" />
-          </section>
-
-    <!-- ⑤ 프로젝트 정보 (공모전 작업용) -->
-    <section class="project-credits">
-      <p>PROJECT TWO Poster Design.</p>
-      <p>-</p>
-      <p>Date : 2025.10</p>
-      <p>Competition : 2025 Design Competition Name</p>
-      <p>Role : Concept, Graphic Design</p>
-      <p>Award : Grand Prize (대상)</p>
+      <img src="../assets/works/work-02/work-02-1.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-02/work-02-2.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-02/work-02-3.png" alt="" loading="lazy" />
     </section>
 
-    <!-- ⑥ 추천 프로젝트 2개 -->
+    <!-- ⑤ 프로젝트 정보 (개인 작업) -->
+    <section class="project-credits">
+      <p>포트폴리오 모션그래픽 인트로 영상</p>
+      <p>-</p>
+      <p>기간 : 2024.06</p>
+      <p>구분 : 개인 프로젝트</p>
+      <p>분야 : 모션그래픽</p>
+      <p>제작 : STUDIO HAEIN</p>
+      <p>툴 : Illustrator, After Effects</p>
+      <p>링크 : <a href="https://www.youtube.com/watch?v=hYVz9GSe0vo" target="_blank" rel="noopener">YouTube에서 보기</a></p>
+    </section>
+    
+    <!-- ⑤ 프로젝트 정보 (클라이언트 작업용) -->
+    <!-- <section class="project-credits">
+      <p>PROJECT THREE Brand Identity Design.</p>
+      <p>-</p>
+      <p>Date : 2021.04</p>
+      <p>Design : STUDIO HAEIN</p>
+      <p>Client : Client Name</p>
+      <p>Link : <a href="https://example.com" target="_blank" rel="noopener">www.example.com</a></p>
+    </section> -->
+
+    <!-- ⑥ 추천 프로젝트 (랜덤 2개, 자동) -->
     <section class="related">
       <h2>You may also like</h2>
-      <ul class="work-grid">
-        <li class="work-item">
-          <a href="project-01.html">
-            <img src="../assets/works/work-01.svg" alt="Project One" loading="lazy" />
-            <div class="work-overlay">
-              <span class="work-title">PROJECT ONE</span>
-              <span class="work-year">2026</span>
-            </div>
-          </a>
-        </li>
-        <li class="work-item">
-          <a href="#">
-            <img src="../assets/works/work-03.svg" alt="Project Three" loading="lazy" />
-            <div class="work-overlay">
-              <span class="work-title">PROJECT THREE</span>
-              <span class="work-year">2025</span>
-            </div>
-          </a>
-        </li>
-      </ul>
+      <!-- 추천 프로젝트는 js/projects.js 목록에서 랜덤으로 자동 선택됩니다 -->
+      <ul class="work-grid" data-related></ul>
     </section>
   </main>
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="site-footer">
-    <img class="footer-logo" src="../assets/logo.svg" alt="STUDIO HAEIN" />
-    <a class="footer-email" href="mailto:hello@studiohaein.com">hello@studiohaein.com</a>
+    <img class="footer-logo" src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
     <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
   </footer>
 
@@ -127,6 +131,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg>
   </button>
 
+  <script src="../js/projects.js"></script>
   <script src="../js/main.js"></script>
 </body>
 </html>

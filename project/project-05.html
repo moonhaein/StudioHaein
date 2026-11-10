@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ▼ 브라우저 탭 제목 -->
+  <title>STUDIO HAEIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="메인 메뉴">
+      <a href="../about.html">ABOUT</a>
+      <a href="../index.html" class="is-active">WORK</a>
+    </nav>
+
+    <a href="../index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
+      <img src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    </a>
+
+    <div class="site-sns">
+      <!-- SNS 버튼: 사용할 때 아래 주석을 해제하고 href에 주소를 넣으세요.
+      <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">
+        <img src="../assets/icons/behance.svg" alt="Behance" />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="../assets/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../assets/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <img src="../assets/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      -->
+    </div>
+  </header>
+
+  <main>
+    <!-- ① 프로젝트 이름 -->
+    <section class="project-head">
+      <h1>우송대학교</h1>
+    </section>
+
+    <!-- ② 메인 이미지 -->
+    <section class="project-hero">
+      <img src="../assets/works/work-05/work-05-0.jpg" alt="우송대학교 메인 이미지" />
+    </section>
+
+    <!-- ③ 프로젝트 풀네임 + 설명 -->
+    <section class="project-intro">
+      <h2>우송대학교 홍보 숏폼 제작</h2>
+
+      <p class="ko">
+        학사 일정 및 행사 숏폼 영상 제작 과정에서학생들이 익숙한 밈·챌린지 스타일을 활용해 도달과 반응을 높였습니다.
+        트렌드 요소는 톤앤매너에 맞게 조정하고, 정보 전달에 방해되지 않도록 자막 가독성과 컷 전환 리듬을 우선해 편집했습니다.
+      </p>
+      <p class="divider">-</p>
+      <p>
+        In the process of producing short-form videos for academic calendars and events, we utilized meme and challenge styles familiar to students to increase reach and engagement. We adjusted trending elements to fit the tone and manner of the content, and prioritized subtitle readability and the rhythm of cut transitions during editing to ensure they did not interfere with the delivery of information.
+      </p>
+      <p class="divider">-</p>
+      <p>Project Scope</p>
+      <ol>
+        <li>1. Short-form Content Planning.</li>
+        <li>2. Videography & Production.</li>
+        <li>3. Video Editing & Post-Production.</li>
+      </ol>
+    </section>
+
+    <!-- ④ 상세 이미지 (위에서부터 순서대로 나열 — <img> 를 추가/삭제하세요) -->
+    <section class="project-gallery">
+      <img src="../assets/works/work-05/work-05-1.jpg" alt="" loading="lazy" />
+      <img src="../assets/works/work-05/work-05-2.jpg" alt="" loading="lazy" />
+    </section>
+
+    <!-- ⑤ 프로젝트 정보 (회사 작업) -->
+    <section class="project-credits">
+      <p>우송대학교 홍보 숏폼 제작</p>
+      <p>-</p>
+      <p>기간 : 2025.12 – 2026.02</p>
+      <p>소속 : (주)하이브파트너스</p>
+      <p>클라이언트 : 우송대학교</p>
+      <p>분야 : 영상 제작</p>
+      <p>담당 : 기획 · 촬영 · 편집</p>
+      <p>링크 : <a href="https://www.instagram.com/woosong_univ/" target="_blank" rel="noopener">https://www.instagram.com/woosong_univ/</a></p>
+    </section>
+
+    <!-- ⑥ 추천 프로젝트 (랜덤 2개, 자동) -->
+    <section class="related">
+      <h2>You may also like</h2>
+      <!-- 추천 프로젝트는 js/projects.js 목록에서 랜덤으로 자동 선택됩니다 -->
+      <ul class="work-grid" data-related></ul>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <img class="footer-logo" src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
+    <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="맨 위로">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg>
+  </button>
+
+  <script src="../js/projects.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

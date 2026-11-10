@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ▼ 브라우저 탭 제목 -->
+  <title>STUDIO HAEIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="메인 메뉴">
+      <a href="../about.html">ABOUT</a>
+      <a href="../index.html" class="is-active">WORK</a>
+    </nav>
+
+    <a href="../index.html" class="site-logo" aria-label="STUDIO HAEIN 홈">
+      <img src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    </a>
+
+    <div class="site-sns">
+      <!-- SNS 버튼: 사용할 때 아래 주석을 해제하고 href에 주소를 넣으세요.
+      <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">
+        <img src="../assets/icons/behance.svg" alt="Behance" />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="../assets/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../assets/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <img src="../assets/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      -->
+    </div>
+  </header>
+
+  <main>
+    <!-- ① 프로젝트 이름 -->
+    <section class="project-head">
+      <h1>하루체험</h1>
+    </section>
+
+    <!-- ② 메인 영상 (유튜브)
+         유튜브 주소가 https://www.youtube.com/watch?v=abc123XYZ 라면
+         아래 src의 VIDEO_ID 자리에 abc123XYZ 를 넣으세요.
+         (youtu.be/abc123XYZ 형태라면 마지막 부분이 ID) -->
+    <section class="project-hero">
+      <div class="project-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/GBIpLKvm5Ig?rel=0"
+          title="하루체험 영상"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- ③ 프로젝트 풀네임 + 설명 -->
+    <section class="project-intro">
+      <h2>하루체험 어플리케이션 홍보영상</h2>
+
+      <p class="ko">
+        취미생활을 한 달 이상 하기에 힘든 분들을 위해 만들어진 애플리케이션의 홍보 영상입니다.<br />
+        하루 치의 가격으로 하루만 체험해 볼 수 있다는 것을 모션그래픽을 통해 직관적으로 보여줬습니다.
+      </p>
+      <p class="divider">-</p>
+      <p>
+        This is a promotional video for an app designed for people who find it difficult to stick with a hobby for more than a month.
+        We used motion graphics to intuitively show that users can try it out for just one day at the price of a single day’s subscription.
+      </p>
+      <p class="divider">-</p>
+      <p>Project Scope</p>
+      <ol>
+        <li>1. Video Planning & Storyboarding.</li>
+        <li>2. Graphic Design & Illustration.</li>
+        <li>3. Motion Graphics & Animation.</li>
+      </ol>
+    </section>
+
+    <!-- ④ 상세 이미지 (위에서부터 순서대로 나열 — <img> 를 추가/삭제하세요) -->
+    <section class="project-gallery">
+      <img src="../assets/works/work-01/work-01-1.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-01/work-01-2.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-01/work-01-3.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-01/work-01-4.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-01/work-01-5.png" alt="" loading="lazy" />
+      <img src="../assets/works/work-01/work-01-6.png" alt="" loading="lazy" />
+    </section>
+
+        <!-- ⑤ 프로젝트 정보 (회사 작업) -->
+    <section class="project-credits">
+      <p>프로젝트명 브랜드 아이덴티티 디자인</p>
+      <p>-</p>
+      <p>기간 : 2025.06 – 2025.09</p>
+      <p>소속 : 회사명 (재직 당시 작업)</p>
+      <p>클라이언트 : 클라이언트명</p>
+      <p>분야 : 브랜드 아이덴티티, 사인 디자인</p>
+      <p>담당 : 로고 디자인, 브랜드 가이드 제작 (기여도 70%)</p>
+      <p>링크 : <a href="https://example.com" target="_blank" rel="noopener">www.example.com</a></p>
+    </section>
+
+    
+    <!-- ⑤ 프로젝트 정보 (클라이언트 작업용) -->
+    <!-- <section class="project-credits">
+      <p>PROJECT THREE Brand Identity Design.</p>
+      <p>-</p>
+      <p>Date : 2021.04</p>
+      <p>Design : STUDIO HAEIN</p>
+      <p>Client : Client Name</p>
+      <p>Link : <a href="https://example.com" target="_blank" rel="noopener">www.example.com</a></p>
+    </section> -->
+
+    <!-- ⑥ 추천 프로젝트 (랜덤 2개, 자동) -->
+    <section class="related">
+      <h2>You may also like</h2>
+      <!-- 추천 프로젝트는 js/projects.js 목록에서 랜덤으로 자동 선택됩니다 -->
+      <ul class="work-grid" data-related></ul>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <img class="footer-logo" src="../assets/logo_white.png" alt="STUDIO HAEIN" />
+    <a class="footer-email" href="mailto:pixelarc.kr@gmail.com">pixelarc.kr@gmail.com</a>
+    <p class="footer-copy">© 2026 STUDIO HAEIN. All rights reserved.</p>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="맨 위로">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg>
+  </button>
+
+  <script src="../js/projects.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
